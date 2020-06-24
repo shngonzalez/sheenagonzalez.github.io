@@ -1,0 +1,142 @@
+/* About */
+
+#about {
+	padding: 6em 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#header {
+	display: flex;
+	flex-direction: row;
+	width: 54em;
+}
+#about #title {
+	margin-top: 5em;
+}
+#portrait img {
+	width: 15em;
+	height: 15em;
+	object-fit: cover;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 11em;
+}
+#divider img {
+	width: 54em;
+	height: 3em;
+	z-index: -1;
+	margin: 1.5em 0;
+}
+#content {
+	display: flex;
+	flex-direction: row;
+	width: 54em;
+	position: relative;
+}
+#text {
+	display: flex;
+	flex-direction: column;
+}
+#bio {
+	width: 38.5em;
+}
+#bio p {
+	padding-bottom: 1em;
+}
+#buttons {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2em;
+}
+.button-outline {
+	margin-right: 1em;
+}
+#patterns div {
+	position: absolute;
+}
+.line-dots {
+	left: 48.5em;
+}
+.line-dots img {
+	width: 6em;
+	height: 1em;
+}
+.square-dots {
+	left: 41em;
+	margin-top: 3em;
+}
+.square-dots img {
+	width: 13em;
+	height: 13em;
+}
+.double-lines {
+	left: 31em;
+	margin-top: 21em;
+}
+.double-lines img {
+	width: 23em;
+	height: 2em;
+}
+
+/* Skills */
+
+#skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 3em 0;
+}
+#skills #title {
+	width: 54em;
+	margin-bottom: 2em;
+}
+#list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 17em;
+}
+.skill span {
+	font-size: 12em;
+}
+.skill h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+#skills .line-dots {
+	width: 1.5em;
+	height: 6em;
+	margin-top: 3em;
+}
+#skills .line-dots img {
+	transform: translateX(-5em) rotate(90deg);
+	margin: 2.5em 0 0 2.5em;
+}
+
+/* Contact */
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#contact #title {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	width: 54em;
+}
+#graphic {
+	width: 20em;
+	height: 27em;
+}
+#mailbox img {
+	width: 16em;
+}

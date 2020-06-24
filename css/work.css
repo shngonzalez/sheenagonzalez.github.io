@@ -1,0 +1,79 @@
+/* Header */
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 7em 0;
+}
+#text {
+	width: 21em;
+	height: 7em;
+	margin-top: 4em;
+}
+#image {
+	width: 25em;
+	height: 32em;
+	position: relative;
+	margin-left: 2em;
+}
+#intro {
+	margin: 1em 1em 1em 0;
+}
+#resume {
+	margin: 13em 0 0 7em;
+}
+#character img {
+	width: 21em;
+	height: 28em;
+}
+.square-dots img {
+	width: 10em;
+	height: 10em;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+}
+#round img { 
+	width: 15em;
+	height: 15em;
+	position: absolute;
+	z-index: -1;
+	bottom: 0em;
+	right: 2.5em;
+}
+.line-dots img {
+	left: 4em;
+	bottom: 4em;
+	width: 4em;
+	height: 1em;
+	position: absolute;
+	z-index: -1;
+}
+.double-lines img { 
+	left: 1em;
+	bottom: 2em;
+	width: 20em;
+	height: 1em;
+	position: absolute;
+	z-index: -1;
+}
+
+/* Work */
+
+#work {
+	top: ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 2em 0 5em 0;
+}
+#work img {
+	width: 29em;
+	height: 23em;
+	margin: 0.5em;
+}
+#left, #right {
+	display: flex;
+	flex-direction: column;
+}
