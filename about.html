@@ -4,14 +4,18 @@
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170753388-1"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-		  gtag('config', 'UA-170753388-1');
+			gtag('config', 'UA-170753388-1');
 		</script>
+		<!-- Site Title + Favicon -->
 		<title>About - Sheena Gonzalez</title>
-		<link rel="icon" href="img/logo/logo-round.svg" type="image/svg" sizes="16x16">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/logo/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 		<!-- Meta Data -->
 		<meta name="description" content="About Sheena Gonzalez —
 
@@ -44,14 +48,14 @@
 		</section>
 		<section id="about">
 			<div id="header">
-				<div id="title">
+				<div class="title">
 					<p class="label-text">ABOUT</p>
 					<h1>Sheena Gonzalez</h1>
 				</div>
 				<div id="portrait"><img src="img/about/portrait.png"></div>
 			</div>
 			<div id="divider"><img src="img/patterns/div-rect.svg"></div>
-			<div id="content">
+			<div class="content">
 				<div id="text">
 					<div id="bio">
 						<p class="body-text">Hi. I’m Sheena, a designer-developer focused on interfaces, branding and illustrations. I recently graduated from University of California, Berkeley with a B.A. in Cognitive Science and a minor in Computer Science. Previously, I worked as a pro-bono graphic designer for Filipino communities in the Bay Area (PASAE, FASTERCon), and briefly under Berkeley’s premier creative agency (Innovative Design). In the near future, I’m aiming for a full-time job in UX with a mission to integrate human-centered design to innovative and impactful technologies.</p>
@@ -70,7 +74,7 @@
 			</div>
 		</section>
 		<section id="skills">
-			<div id="title">
+			<div class="title">
 				<h2>What can I do for you?</h2>
 			</div>
 			<div id="list">
@@ -91,7 +95,7 @@
 						<i class="fas fa-paint-brush" style="color: #DBECE6" data-fa-transform="shrink-7"></i>
 					</span>
 					<h3>Art</h3>
-					<p class="body-text">I love drawing and painting people. I created character designs and 2D game assets as side projects all for fun.</p>
+					<p class="body-text">I love drawing and painting people. I created character designs and 2D game assets as side projects simply for fun.</p>
 				</div>
 				<div class="line-dots"><img src="img/patterns/line-dots.svg"></div>
 				<div class="skill">
@@ -106,39 +110,43 @@
 			</div>
 		</section>
 		<section id="contact">
-			<div id="title">
+			<div class="title">
 				<h2>Looking to hire, collaborate, or just say hi?</h2>
 				<h3>Leave me a message.</h3>
 			</div>
-			<div id="contact-body">
-				<form action="https://formspree.io/xbjzknrp" target="_blank" method="POST">
-					<div id="name">
-						<label class="caption-text" for="name">Name</label><br>
-						<input class="body-text" type="text" name="name" required><br>
-					</div>
-					<div id="affiliation">
-						<label class="caption-text" for="affiliation">Company/Affiliation</label><br>
-						<input class="body-text" type="text" name="affiliation"><br>
-					</div>
-					<div id="e-mail">
-						<label class="caption-text" for="e-mail">E-mail</label><br>
-						<input class="body-text" type="text" name="e-mail" required><br>
-					</div>
-					<div id="message">
-						<label class="caption-text" for="message">Message</label><br>
-						<textarea class="body-text" type="text" name="message" required></textarea><br>
-					</div>
-					<div id="send">
-						<input class="button-fill label-text" type="submit" value="SEND">
-					</div>
-				</form>
-	        </div>
-	        <div id="graphic">
-	        	<div id="mailbox"><img src="img/about/mailbox.png"></div>
-	        	<div class="square-dots"><img src="img/patterns/square-dots.svg"></div>
-				<div class="line-dots"><img src="img/patterns/line-dots.svg"></div>
-				<div class="double-lines"><img src="img/patterns/double-lines.svg"></div>
-	        </div>
+			<div class="content">
+				<div id="form">
+					<form action="https://formspree.io/xbjzknrp" target="_blank" method="POST">
+						<div id="input-field">
+							<div>
+								<label id="name-label" class="caption-text" for="name">Name</label>
+								<label class="caption-text" for="company">Company / Affiliation</label>
+							</div>
+							<div>
+								<input id="name-input" class="body-text" type="text" name="name" required>
+								<input id="company" class="body-text" type="text" name="company">
+							</div>
+						</div>
+						<div id="input-field">
+							<label class="caption-text" for="e-mail">E-mail</label><br>
+							<input class="body-text" type="text" name="e-mail" required><br>
+						</div>
+						<div id="input-field">
+							<label class="caption-text" for="message">Message</label><br>
+							<textarea class="body-text" type="text" name="message" required></textarea><br>
+						</div>
+						<div id="send">
+							<input class="button-fill label-text" type="submit" value="SEND">
+						</div>
+					</form>
+		        </div>
+		        <div id="graphic">
+		        	<div id="mailbox"><img src="img/about/mailbox.png"></div>
+		        	<div class="square-dots"><img src="img/patterns/square-dots.svg"></div>
+					<div class="line-dots"><img src="img/patterns/line-dots.svg"></div>
+					<div class="double-lines"><img src="img/patterns/double-lines.svg"></div>
+		        </div>
+	    	</div>
 		</section>
 		<section id="footer">
 			<span id="icons">

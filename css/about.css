@@ -11,7 +11,7 @@
 	flex-direction: row;
 	width: 54em;
 }
-#about #title {
+#about .title {
 	margin-top: 5em;
 }
 #portrait img {
@@ -28,7 +28,7 @@
 	z-index: -1;
 	margin: 1.5em 0;
 }
-#content {
+#about .content {
 	display: flex;
 	flex-direction: row;
 	width: 54em;
@@ -86,9 +86,10 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin: 3em 0;
+	margin: 2em 0 3em;
+	padding: 4em 0;
 }
-#skills #title {
+#skills .title {
 	width: 54em;
 	margin-bottom: 2em;
 }
@@ -126,17 +127,87 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 4em 0;
+	margin: 3em 0;
 }
-#contact #title {
+#contact .title {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	width: 54em;
+	width: 57em;
+}
+#contact .content {
+	display: flex;
+	flex-direction: row;
+	width: 57em;
+}
+#form {
+	width: 29em;
+	margin-top: 2em;
+	margin-right: 3em;
+	position: relative;
+}
+input, textarea {
+	padding: .5em 1em;
+	width: 27em;
+	border-radius: .25em;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.0625em;
+	border-color: rgba(68, 68, 68, .5);
+	color: #444444;
+}
+textarea {
+	height: 7em;
+	resize: none;
+}
+#input-field {
+	margin-bottom: 0.5em;
+}
+#name-label {
+	margin-right: 14em;
+}
+#name-input {
+	width: 12em;
+	margin-right: 0.5em;
+}
+#company {
+	width: 12em;
+}
+#send input {
+	position: absolute;
+	right: 0;
+	margin-top: 2em;
+	width: 14em;
 }
 #graphic {
-	width: 20em;
+	width: 23em;
 	height: 27em;
+	position: relative;
 }
 #mailbox img {
 	width: 16em;
+	position: absolute;
+	right: 0;
+}
+#graphic .line-dots img {
+	width: 2.5em;
+	height: 1em;
+	position: absolute;
+	top: 5.5em;
+	right: 5em;
+}
+#graphic .square-dots img {
+	width: 7em;
+	height: 7em;
+	position: absolute;
+	top: 12em;
+	right: 0;
+	z-index: -1;
+}
+#graphic .double-lines img {
+	width: 23em;
+	height: 2em;
+	position: absolute;
+	top: 0;
 }
