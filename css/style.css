@@ -25,16 +25,10 @@ h2, .headline-text {
 	font-size: 1.75em;
 	margin: 0;
 }
-h3, .subheadline-1-text {
+h3, .subheadline-text {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 1.25em;
-	margin: 0;
-}
-h4, .subheadline-2-text {
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
-	font-size: 1.125em;
 	margin: 0;
 }
 .body-text {
