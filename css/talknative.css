@@ -474,6 +474,18 @@
 	#goal .wave-bg {
 		top: -3em;
 	}
+	#features #wave-1 {
+		top: 13em;
+	}
+	#features #wave-2 {
+		top: 64em;
+	}
+	#location .text {
+		top: 14em;
+	}
+	#context .text {
+		top: 11em;
+	}
 }
 @media screen and (max-width: 700px) {
 	#style .wave-bg {
@@ -481,5 +493,14 @@
 	}
 	#goal .wave-bg {
 		top: -2em;
+	}
+	#features #wave-1 {
+		top: 14em;
+	}
+	#features #wave-2 {
+		top: 65em;
+	}
+	#location .text {
+		top: 13em;
 	}
 }
