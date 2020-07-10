@@ -161,7 +161,7 @@ textarea {
 	height: 7em;
 	resize: none;
 }
-#input-field {
+.input-field {
 	margin-bottom: 0.5em;
 }
 #name-label {
@@ -210,4 +210,30 @@ textarea {
 	height: 2em;
 	position: absolute;
 	top: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+	#name-input {
+		margin-right: 0.4em;
+	}
+}
+@media screen and (max-width: 700px) {
+	#name-input {
+		width: 11.9em;
+		margin-right: 0.4em;
+	}
+	#company {
+		width: 11.9em;
+	}
+}
+@media screen and (max-width: 600px) {
+	#name-input {
+		width: 11.88em;
+		margin-right: 0.4em;
+	}
+	#company {
+		width: 11.88em;
+	}
 }
