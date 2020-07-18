@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170753388-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-170753388-1');
+        </script>
+        <!-- Site Title + Favicon -->
+        <title>AZLyrics | Prototype — Sheena Gonzalez</title>
+        <link rel="icon" type="image/png" href="azlyrics/img/logo.png?">
+        <!-- Meta Data -->
+        <meta name="description" content="AZLyrics —
+        Website Redesign 2018
+        AZLyrics was a popular website for finding lyrics with its large collection of songs, artists and albums. Our redesign, ranking top five in a class of a hundred, revamped the existing website's usability...">
+        <meta name="keywords" content="sheena gonzalez, design, ui/ux, interface design, portfolio, azlyrics, prototype, website redesign, music, lyrics">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles and Scripts -->
+        <link href="azlyrics/css/style.css" rel="stylesheet">
+        <link href="azlyrics/css/home.css" rel="stylesheet">
+        <script src="azlyrics/js/script.js"></script>
+    </head>
+    <body>
+        <section id="nav-bar">
+            <a href="https://sheenagonzalez.github.io/prototypes/azlyrics" id="logo">
+                <img src="azlyrics/img/logo.png">
+            </a>
+            <div id="alphabet">
+                <div onclick="showClickable()">A</div>
+                <div onclick="showClickable()">B</div>
+                <div onclick="showClickable()">C</div>
+                <div onclick="showClickable()">D</div>
+                <div onclick="showClickable()">E</div>
+                <div onclick="showClickable()">F</div>
+                <div onclick="showClickable()">G</div>
+                <div onclick="showClickable()">H</div>
+                <div onclick="showClickable()">I</div>
+                <div onclick="showClickable()">J</div>
+                <div onclick="showClickable()">K</div>
+                <div onclick="showClickable()">L</div>
+                <div onclick="showClickable()">M</div>
+                <div onclick="showClickable()">N</div>
+                <div onclick="showClickable()">O</div>
+                <div onclick="showClickable()">P</div>
+                <div onclick="showClickable()">Q</div>
+                <div onclick="showClickable()">R</div>
+                <div onclick="showClickable()">S</div>
+                <div onclick="showClickable()">T</div>
+                <div onclick="showClickable()">U</div>
+                <div onclick="showClickable()">V</div>
+                <div onclick="showClickable()">W</div>
+                <div onclick="showClickable()">X</div>
+                <div onclick="showClickable()">Y</div>
+                <div onclick="showClickable()">Z</div>
+                <div onclick="showClickable()">#</div>
+            </div>
+            <div id="buttons">
+                <div class="button" onclick="showClickable()">Songs</div>
+                <div class="button" onclick="showClickable()">Artists</div>
+                <div class="button" onclick="showClickable()">Albums</div>
+            </div>
+        </section>
+        <section id="content">
+            <div id="big-logo"><img src="azlyrics/img/logo.png"></div>
+            <div id="search-bar" class="clickable">
+                <span id="search-icon"><img src="azlyrics/img/search.png"></span>
+                <span onclick="redirectTo('search')" id="search"><input type="text" placeholder="Search lyrics or type an artist's name, song, or album."></span>
+            </div>
+            <div id="text">
+                <div>
+                    <p id="welcome">Welcome to AZ Lyrics</p>
+                </div>
+                <p id="about">It's a place where all searches end. We have a large, legal, every day growing universe of lyrics where stars of all genres and ages shine.
+                </p>
+            </div>
+            <div id="overlay" onclick="off()">
+                <div id="overlay-text">
+                    <h1>OOPS! That doesn't work.</h1>
+                    <p>This is a prototype. Click only on highlighted areas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div id="footer-button">
+                <div onclick="showClickable()">Submit Lyrics</div>
+                <div onclick="showClickable()">Request Lyrics</div>
+                <div onclick="showClickable()">Facebook</div>
+                <div onclick="showClickable()">Contact Us</div>
+            </div>
+            <div id="disclaimer">All lyrics are property and copyright of their owners. All lyrics provided for educational purposes and personal use only.</div>
+            <div id="copyright">Copyright © 2000-2018 AZLyrics.com</div>
+        </section>
+	</body>
+</html>

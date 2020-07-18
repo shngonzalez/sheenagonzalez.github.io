@@ -1,0 +1,171 @@
+body {
+	background-color: #181818;
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI Symbol", sans-serif;
+}
+#nav-bar {
+	position: static;
+}
+#header {
+	background-color: #181818;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 20px;
+	width: 100%;
+}
+#header img {
+	opacity: 0.5;
+	position: relative;
+	width: 100%;
+}
+#header h1 {
+	font-family: "Ostrich Sans", sans-serif;
+	font-weight: bold;
+	font-size: 64px;
+	position: absolute;
+	top: 100px;
+	background: linear-gradient(to left, #60CFFE 0%, #49DEB7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#header h2 {
+	font-family: "Ostrich Sans", sans-serif;
+	font-size: 32px;
+	position: absolute;
+	top: 200px;
+	color: white;
+}
+#header h2:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+#header h2:active {
+	cursor: default;
+	opacity: 1;
+}
+#commands, #lyrics {
+	background: white;
+	border-radius: 16px;
+}
+#commands img {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+}
+#commands p {
+	margin-right: 8px;
+}
+#commands {
+	width: 17%;
+	position: fixed;
+	left: 5%;
+	padding: 8px;
+	font-size: 14px;
+}
+.command:hover {
+	cursor: pointer;
+	filter: invert(100%) sepia(38%) saturate(3315%) hue-rotate(98deg) brightness(87%) contrast(87%);
+}
+.command:active {
+	cursor: default;
+	opacity: .5;
+}
+#heart:visited {
+	filter: invert(100%) sepia(38%) saturate(3315%) hue-rotate(98deg) brightness(87%) contrast(87%);
+}
+.row, .command {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 2.5%;
+}
+#lyrics {
+	width: 55%;
+	padding: 48px 0 16px 5%;
+	margin-bottom: 24px;
+}
+#lyrics-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.line {
+	width: 60%;
+	margin-left: 13%;
+	padding-left: 2%;
+	border-radius: 8px; 
+}
+.verse {
+	margin-bottom: 48px;
+}
+#start {
+	padding: 8px;
+	border-radius: 8px;
+	background: #181818;
+	width: 70%;
+	color: white;
+}
+#start:hover {
+	color: #181818;
+	cursor: pointer;
+	background: linear-gradient(to left, #60CFFE 0%, #49DEB7 100%);
+}
+#start:active {
+	opacity: .5;
+	cursor: default;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1020px) {
+	#header h1 {
+		font-size: 48px;
+		top: 72px;
+	}
+	#header h2 {
+		font-size: 28px;
+		top: 144px;
+	}
+	#lyrics {
+		width: 50%;
+	}
+	#commands {
+		width: 25%;
+	}
+}
+@media screen and (max-width: 750px) {
+	#header h1 {
+		font-size: 36px;
+		top: 10%;
+		background: linear-gradient(to left, #60CFFE 0%, #49DEB7 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	#header h2 {
+		font-size: 24px;
+		position: absolute;
+		top: 17%;
+		color: white;
+	}
+	#lyrics {
+		width: 70%;
+	}
+	.row {
+		margin-left: 30%;
+	}
+	.line {
+		width: 80%;
+		margin-left: 5%;
+	}
+	#start {
+		width: 30%;
+	}
+	#commands {
+		position: relative;
+		margin: 8px 0;
+		left: 12%;
+		width: 73%;
+	}
+}

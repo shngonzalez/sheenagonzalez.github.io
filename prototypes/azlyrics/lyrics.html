@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170753388-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-170753388-1');
+        </script>
+        <!-- Site Title + Favicon -->
+        <title>AZLyrics — Chasing Pavements | Prototype — Sheena Gonzalez</title>
+        <link rel="icon" type="image/png" href="img/logo.png?">
+        <!-- Meta Data -->
+        <meta name="description" content="AZLyrics —
+        Website Redesign 2018
+        AZLyrics was a popular website for finding lyrics with its large collection of songs, artists and albums. Our redesign, ranking top five in a class of a hundred, revamped the existing website's usability...">
+        <meta name="keywords" content="sheena gonzalez, design, ui/ux, interface design, portfolio, azlyrics, prototype, website redesign, music, lyrics">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles and Scripts -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/lyrics.css" rel="stylesheet">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <section id="nav-bar">
+            <a class="clickable" href="https://sheenagonzalez.github.io/prototypes/azlyrics" id="logo">
+                <img src="img/logo.png">
+            </a>
+            <div id="alphabet">
+                <div onclick="showClickable()">A</div>
+                <div onclick="showClickable()">B</div>
+                <div onclick="showClickable()">C</div>
+                <div onclick="showClickable()">D</div>
+                <div onclick="showClickable()">E</div>
+                <div onclick="showClickable()">F</div>
+                <div onclick="showClickable()">G</div>
+                <div onclick="showClickable()">H</div>
+                <div onclick="showClickable()">I</div>
+                <div onclick="showClickable()">J</div>
+                <div onclick="showClickable()">K</div>
+                <div onclick="showClickable()">L</div>
+                <div onclick="showClickable()">M</div>
+                <div onclick="showClickable()">N</div>
+                <div onclick="showClickable()">O</div>
+                <div onclick="showClickable()">P</div>
+                <div onclick="showClickable()">Q</div>
+                <div onclick="showClickable()">R</div>
+                <div onclick="showClickable()">S</div>
+                <div onclick="showClickable()">T</div>
+                <div onclick="showClickable()">U</div>
+                <div onclick="showClickable()">V</div>
+                <div onclick="showClickable()">W</div>
+                <div onclick="showClickable()">X</div>
+                <div onclick="showClickable()">Y</div>
+                <div onclick="showClickable()">Z</div>
+                <div onclick="showClickable()">#</div>
+            </div>
+            <div id="search-bar" class="clickable">
+                <span id="search-icon"><img src="img/search.png"></span>
+                <span id="search"><input onclick="redirectTo('search')" type="text" placeholder="Search..."></span>
+            </div>
+        </section>
+        <section id="body">
+        	<div class="content" id="header">
+				<img src="img/lyrics/header.jpg">
+				<h1>Chasing Pavements</h1>
+				<h2 class="clickable" onclick="redirectTo('artist')">Adele</h2>
+			</div>
+        	<div class="content" id="commands">
+        		<div id="start" class="clickable row" onclick="highlightLyrics()">▶ START</div>
+				<div class="row">
+					<div class="command" onclick="showClickable()">
+						<img src="img/lyrics/eye-regular.svg">
+						<p>1.2k</p>
+					</div>
+					<div class="command" id="heart" onclick="showClickable()">
+						<img src="img/lyrics/heart-regular.svg">
+						<p>574</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="command" onclick="showClickable()"><img src="img/lyrics/print-solid.svg"></div>
+					<div class="command" onclick="showClickable()"><img src="img/lyrics/envelope-regular.svg"></div>
+					<div class="command" onclick="showClickable()"><img src="img/lyrics/facebook-f-brands.svg"></div>
+					<div class="command" onclick="showClickable()"><img src="img/lyrics/share-square-solid.svg"></div>
+				</div>
+				<div class="row">
+					<div class="command">
+						<img src="img/lyrics/times-circle-regular.svg">
+					    <p>Submit Corrections</p>
+					</div>
+				</div>
+			</div>
+			<div class="content" id="lyrics-cont">
+		    	<div id="lyrics">
+				    <div class="verse">
+						<p class="line"> I've made up my mind </p>
+						<p class="line"> Dont need to think it over </p>
+						<p class="line"> If I'm wrong I am right </p>
+						<p class="line"> Don't need to look no further </p>
+						<p class="line"> This ain't lust </p>
+						<p class="line"> I know this is love but</p>
+					</div>
+					<div class="verse">
+						<p class="line"> If I tell the world </p>
+						<p class="line"> I'll never say enough </p>
+						<p class="line"> Cause it was not said to you </p>
+						<p class="line"> And that's exactly what I need to do </p>
+						<p class="line"> If I'm in love with you </p>
+				    </div>
+				    <div class="verse">
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere </p>
+						<p class="line"> Or would it be a waste? </p>
+						<p class="line"> Even if I knew my place, should I leave it there? </p>
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere </p>
+				    </div>
+				    <div class="verse">
+						<p class="line"> I'd build myself up </p>
+						<p class="line"> And fly around in circles </p>
+						<p class="line"> Waiting as my heart drops </p>
+						<p class="line"> And my back begins to tingle </p>
+						<p class="line"> Finally could this be it or </p>
+				    </div>
+				    <div class="verse">
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere </p>
+						<p class="line"> Or would it be a waste? </p>
+						<p class="line"> Even if I knew my place should I leave it there? </p>
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere yeah </p>
+				    </div>
+				    <div class="verse">
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if, it leads nowhere </p>
+						<p class="line"> Or would it be a waste? </p>
+						<p class="line"> Even if I knew my place should I leave it there? </p>
+						<p class="line"> Should I give up, </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Should I just keep chasing pavements? Or </p>
+				    </div>
+				    <div class="verse">
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere </p>
+						<p class="line"> Or would it be a waste? </p>
+						<p class="line"> Even if I knew my place should I leave it there? </p>
+						<p class="line"> Should I give up </p>
+						<p class="line"> Or should I just keep chasing pavements? </p>
+						<p class="line"> Even if it leads nowhere </p>
+				    </div>
+				</div>
+			</div>
+			<div id="overlay" onclick="off()">
+                <div id="overlay-text">
+                    <h1>OOPS! That doesn't work.</h1>
+                    <p>This is a prototype. Click only on highlighted areas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div id="footer-button">
+                <div onclick="showClickable()">Submit Lyrics</div>
+                <div onclick="showClickable()">Request Lyrics</div>
+                <div onclick="showClickable()">Facebook</div>
+                <div onclick="showClickable()">Contact Us</div>
+            </div>
+            <div id="disclaimer">All lyrics are property and copyright of their owners. All lyrics provided for educational purposes and personal use only.</div>
+            <div id="copyright">Copyright © 2000-2018 AZLyrics.com</div>
+        </section>
+    </body>
+</html>

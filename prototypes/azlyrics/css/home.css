@@ -1,0 +1,78 @@
+body {
+	background-color: #232323;
+	background: url("../img/home/background.png") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 64px;
+	font-family: "Segoe UI Symbol", sans-serif;
+	padding: 56px 32px 32px;
+	height: 480px;
+}
+#big-logo img {
+	width: 200px; 
+	height: 200px;
+}
+#search-bar, #text {
+	width: 41%;
+}
+#search-bar {
+	color: #707070;
+	padding: 8px 8px 16px 8px;
+	background: white;
+	border-radius: 12px;
+}
+#search-icon img {
+	width:24px; 
+	height: 24px;
+	position: relative;
+	top: 4px;
+}
+#search input {
+	font-family: 'Segoe UI Symbol', sans-serif; 
+    font-size: 16px;
+    width: 85%;
+    border: none;
+    outline: none;
+}
+#text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	top: 32px;
+}
+#welcome {
+	background: linear-gradient(to left, #60CFFE 0%, #49DEB7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#text div {
+	width: 100%;
+	border-bottom: solid 1px #60CFFE;
+}
+#about {
+	color: white;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 960px) {
+	#search-bar, #text {
+		width: 55%;
+	}
+}
+@media screen and (max-width: 750px) {
+	#content {
+		font-size: 14px;
+	}
+	#search-bar, #text {
+		width: 75%;
+	}
+}
