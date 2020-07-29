@@ -1,0 +1,90 @@
+/* Body */
+
+body {
+	background: #2B736D;
+	color: #FDF9CD;
+}
+#navbar a {
+	/*color: #444444;*/
+	color: #DFA84D;
+	text-decoration: none;
+}
+#footer a {
+	color: #FDF9CD;
+}
+
+/* Title Header */
+#header {
+	padding: 4em 0 8em;
+}
+#header .title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 1em;
+}
+#header .text {
+	width: 36em;
+	text-align: center;
+}
+#pana-logo {
+	width: 5em;
+	margin-right: 1.5em;
+}
+
+/* Project Content */
+
+.proj-section, #header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#images {
+	background: #FFFACD;
+}
+#images img, #thanks img {
+	width: 54em;
+	height: 41em;
+	margin: 4em 0;	
+}
+
+/* Footnotes */
+
+#footnotes {
+	padding: 2em 0 4em;
+	background: #FFFACD;
+	color: #2B736D;
+}
+#footnotes .content {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#notes {
+	width: 20em;
+}
+#tools {
+	margin-right: 4em;
+	width: 10em;
+}
+#footnotes h3 {
+	margin-bottom: .5em;
+}
+.paragraph {
+	margin-bottom: 1em;
+}
+
+/* Recommendations */
+
+#recommendations {
+	margin: 4em 0;
+}
+#recommendations h3 {
+	width: 44em;
+	margin-bottom: 1em;
+}
+#recommendations img {
+	width: 13em;
+	margin-right: .5em;
+}
