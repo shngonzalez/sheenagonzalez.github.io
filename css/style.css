@@ -107,6 +107,7 @@ h3, .subheadline-text {
 }
 
 /* Buttons */
+
 .button-fill {
 	background-color: #444444;
 	border: none;
@@ -133,6 +134,20 @@ h3, .subheadline-text {
 }
 .button-fill:active, .button-outline:active {
 	opacity: .8;
+}
+
+/* Recommendations */
+
+#recommendations img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+    transform: scale(1.025);
+}
+#recommendations img:active {
+	transform: scale(.8);
+    opacity: 0.8;
 }
 
 /* Media Queries */

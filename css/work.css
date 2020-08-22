@@ -74,14 +74,14 @@
 	margin: 0.5em;
 	transition: transform .5s;
 }
-#work img:hover, #recommendations img:hover {
+#work img:hover {
     -webkit-filter: none;
     -moz-filter: none;
     -ms-filter: none;
     filter: none;
     transform: scale(1.025);
 }
-#work img:active, #recommendations img:active {
+#work img:active {
 	transform: scale(.8);
     opacity: 0.8;
 }
