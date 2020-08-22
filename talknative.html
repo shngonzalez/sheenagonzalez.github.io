@@ -26,6 +26,7 @@
 		<link rel="stylesheet"  href="css/style.css">
 		<link rel="stylesheet"  href="css/talknative.css">
 		<script src="js/script.js"></script>
+		<script src="js/talknative.js"></script>
 		<script src="https://kit.fontawesome.com/b569de1445.js" crossorigin="anonymous"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 	</head>
@@ -86,17 +87,17 @@
 			<div id="answers">
 				<div>
 					<i class="fas fa-quote-left fa-4x"></i>
-					<p class="caption-text">Italian immigrant and documentarian living 40 years in US, says:</p>
+					<p class="caption-text">Italian-American immigrant of 40 years in the US, says:</p>
 					<p class="body-text">“For me the hardest part in English is how similar so many words seem and I always mess things up, especially figures of speech. For example, I thought ‘Jolly good’ was ‘Charlie good’ or ‘Olive oil’ was ‘oil of oil’.”</p>
 				</div>
 				<div>
 					<i class="fas fa-quote-left fa-4x"></i>
-					<p class="caption-text">University student from Belgium living 1 year in US, says:</p>
+					<p class="caption-text">University student from Belgium who has spent 1 year in the US, says:</p>
 					<p class="body-text">“I feel like I can be more personable if I am less formal and seem like less of a robot. I like making my personality show, and being too formal takes that away from me.”</p>
 				</div>
 				<div>
 					<i class="fas fa-quote-left fa-4x"></i>
-					<p class="caption-text">International student from Sweden studying in US for 2 months, says:</p>
+					<p class="caption-text">International student from Sweden who has spent 2 months in the US, says:</p>
 					<p class="body-text">“Sometimes it’s just the small thing, I am always wanting to say 23 o’clock instead of 11 and then people look at me like, ‘What is he saying?’”</p>
 				</div>
 			</div>
@@ -189,10 +190,10 @@
 			<div class="content" id="low-fid">
 				<h3>Low Fidelity Prototype (App Trailer) </h3>
 				<div class="content">
-					<div class="thumbnail" onclick="trailer=document.getElementById('trailer'); trailer.style.display='block'; this.style.display='none'; trailer_vid=document.getElementById('trailer-vid'); trailer_vid.src+='&autoplay=1'; ev.preventDefault();"> 
+					<div class="thumbnail" onclick="startVid()"> 
 						<img src="img/talknative/trailer_thumbnail.png"> 
 					</div>
-					<div id="trailer" style="display: none;"> 
+					<div id="trailer" style="display: none;">
 						<iframe id="trailer-vid" src="https://www.youtube.com/embed/6369jJTHT3A?playsinline=1&autohide=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 					</div>
 				</div>
@@ -220,8 +221,8 @@
 				<h2>Features</h2>
 			</div>
 			<div id="wave-1" class="wave-bg">
-					<img src="img/patterns/wave.svg">
-				</div>
+				<img src="img/patterns/wave.svg">
+			</div>
 			<div class="content" id="situation">
 				<div class="image">
 					<img class="phone" src="img/patterns/phone.svg">
@@ -243,8 +244,8 @@
 				</div>
 			</div>
 			<div id="wave-2" class="wave-bg">
-					<img src="img/patterns/wave.svg">
-				</div>
+				<img src="img/patterns/wave.svg">
+			</div>
 			<div class="content" id="context">
 				<div class="image">
 					<img class="phone" src="img/patterns/phone.svg">
@@ -303,7 +304,7 @@
 				<div id="notes">
 					<h3>Notes</h3>
 					<div class="paragraph">
-						<p class="caption-text">TalkNative! is a course project for CS160, User Interface Design and Development. The project was presented online as part of the Jacobs Design Institute’s Spring 2020 Design Showcase.</p>
+						<p class="caption-text">TalkNative! is a course project for CS160, User Interface Design and Development. The project was presented online as part of the Jacobs Design Institute’s <a class="link" href="https://www.behance.net/cs160spring2020" target="_blank">Spring 2020 Design Showcase</a>.</p>
 					</div>
 					<div class="paragraph">
 						<p class="caption-text">Due to COVID-19, the team was challenged with remote collaboration during the design iterations and prototyping, and the course staff decided not to continue with full implementations of course projects as working Android applications.</p>
