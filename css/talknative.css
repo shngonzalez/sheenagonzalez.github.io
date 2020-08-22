@@ -100,6 +100,7 @@
 
 #interviews {
 	padding: 4em 0;
+	margin-bottom: 6em;
 }
 .subhead {
 	width: 50em;
@@ -451,6 +452,9 @@
 }
 .paragraph {
 	margin-bottom: 1em;
+}
+.link {
+	color: #6EBC44;
 }
 
 /* Media Queries */
