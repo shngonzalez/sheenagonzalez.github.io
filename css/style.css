@@ -138,6 +138,9 @@ h3, .subheadline-text {
 
 /* Recommendations */
 
+#recommendations img {
+	transition: .5s;
+}
 #recommendations img:hover {
     -webkit-filter: none;
     -moz-filter: none;
