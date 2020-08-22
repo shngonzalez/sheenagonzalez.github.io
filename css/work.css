@@ -83,7 +83,7 @@
     -moz-filter: none;
     -ms-filter: none;
     filter: none;
-    transform: scale(1.125);
+    transform: scale(1.05);
 }
 #work img:active {
 	transform: scale(.8);
