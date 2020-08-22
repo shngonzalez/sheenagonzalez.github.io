@@ -1,0 +1,415 @@
+/* Fonts */
+
+@font-face {
+	font-family: "Righteous", cursive;
+	src: url(../fonts/righteous.ttf);
+}
+@font-face {
+	font-family: "Raleway", sans-serif;
+	src: url(../fonts/raleway.otf);
+}
+
+/* Title Header */
+
+#header {
+	padding: 7em 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#header .left {
+	width: 26em;
+	margin: 8em 2em 0 0;
+}
+#cubbi-title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2em;
+}
+#cubbi-title img {
+	width: 3em;
+	height: 3em;
+	margin-right: 1em;
+}
+#description {
+	margin-top: 1em;
+	width: 19em;
+}
+#prototype-link {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2em;
+	color: #8D44C7;
+}
+.play-icon {
+	padding: .125em .75em 0 0;
+}
+#header .right {
+	width: 26em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#main-img img {
+	width: 15em;
+	height: 33em;
+	margin-right: 1em;
+}
+#other-img img {
+	width: 7em;
+	height: 16em;
+}
+.device img {
+	box-shadow: 0 0 1.5em rgba(68, 68, 68, 10%);
+	border-radius: 1em;
+}
+.proj-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Key Insights */
+
+#insights {
+	padding: 2em 0;
+	margin-bottom: 8em;
+}
+#insights p {
+	width: 45em;
+	padding: 3em 4.5em;
+	background: #EEEEEE;
+	border-radius: 1.25em;
+	margin-top: 2em;
+
+}
+.title {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+.title .icon {
+	padding: .75em .65em;
+	border-radius: 50%;
+	margin-right: 1em;
+	color: white;
+	background: #8D44C7;
+}
+
+/* Style */
+
+#style .content {
+	width: 50em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 3.5em;
+}
+#type, #style-logo, #color-palette {
+	width: 17.5em;
+	margin-right: 0;
+}
+#style #type {
+	width: 15em;
+}
+#style-logo img {
+	width: 7.6em;
+}
+#style .content h3 {
+	margin: 2em 0;
+}
+#style .content #type h3 {
+	margin: 2em 0 1.25em 0;
+}
+#style .body-text {
+	margin-bottom: .5em;
+}
+#righteous .title-text, #righteous .body-text {
+	font-family: "Righteous", cursive;
+}
+#raleway .title-text, #raleway .body-text {
+	font-family: "Raleway", sans-serif;
+}
+#color-palette > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin-bottom: 1em;
+}
+.color {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 1em;
+}
+.color .fa-4x {
+	margin-bottom: .25em;
+}
+#style {
+	position: relative;
+	margin-bottom: 12em;
+}
+.wave-bg {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.wave-bg img {
+	width: 100%;
+	opacity: 0.2;
+}
+#style .wave-bg {
+	top: -3em;
+}
+
+/* Design Process */
+
+#design {
+	margin: 5em;
+}
+#design .body-text {
+	width: 36em;
+	margin: 2em 9em;
+}
+#design .content {
+	margin-top: 2em;
+	width: 54em;
+}
+#design .content h3 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2em;
+}
+#design .content h3::after {
+	margin-left: 1em;
+	content: "";
+	flex: 1;
+	border-bottom: .0625em solid #8D44C7;
+}
+#design .content h3::before {
+	margin-right: 1em;
+	content: "";
+	flex: 1;
+	border-bottom: .0625em solid #8D44C7;
+}
+.purple {
+	color: #8D44C7;
+}
+#launch {
+	position: relative;
+	margin-bottom: 4em;
+}
+#phone {
+	width: 10em;
+	box-shadow: 0 0 1.5em rgba(68, 68, 68, 10%);
+	border-radius: 1em;
+	transform: rotate(25deg);
+}
+#oval {
+	width: 20em;
+	position: absolute;
+	z-index: -1;
+	bottom: -2em;
+	left: -6em;
+	opacity: .5;
+}
+#sketch img {
+	width: 25em;
+}
+#sketch {
+	margin-bottom: 2em;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#userflow-sketch {
+	margin-right: 1em;
+	margin-bottom: 1em;
+	height: 32.25em;
+}
+#rooms-sketch {
+	margin-right: 1em;
+}
+#dashboard-sketch {
+	margin-bottom: 1em;
+}
+#low-fid img, #high-fid img {
+	width: 12em;
+	margin: 0 .75em 2em .75em;
+}
+#high-fid #screens {
+	width: 54em;
+}
+
+/* Features */
+
+#features h2 {
+	margin-bottom: 2em;
+}
+#features .subheadline-text {
+	color: #8D44C7;
+}
+#features .content {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#rooms .gif, #bills .gif {
+	width: 16em;
+	margin-right: 6em;
+}
+#chores .gif {
+	width: 16em;
+	margin-left: 6em;
+}
+.text {
+	width: 23em;
+	display: flex;
+	flex-direction: column;
+}
+#features p {
+	margin-bottom: 1em;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#chores .text {
+	left: 6em;
+	top: 15em;
+}
+#bills .text {
+	top: 12em;
+}
+#features {
+	position: relative;
+}
+#features #wave-1 {
+	transform: scaleX(-1);
+	position: absolute;
+	top: 12em;
+}
+#features #wave-2 {
+	position: absolute;
+	top: 63em;
+}
+
+/* Thanks */
+
+#thanks .content {
+	width: 45em;
+	padding: 2em 4.5em;
+	border-radius: 1.25em;
+	background: #EEEEEE;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 6em;
+}
+#thanks h3 {
+	width: 14.5em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+#thanks a {
+	width: 18em;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+}
+#thanks .icon {
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+/* Footnotes */
+
+#footnotes .content {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 4em 0;
+}
+#team-tools {
+	width: 10em;
+}
+#roles, #notes {
+	width: 20em;
+}
+#team-tools, #roles {
+	margin-right: 2em;
+}
+#footnotes h3 {
+	margin-bottom: .5em;
+}
+.paragraph {
+	margin-bottom: 1em;
+}
+
+/* Recommendations */
+
+#recommendations h3 {
+	width: 44em;
+	margin: 4em 0 1em 0;
+}
+#recommendations img {
+	width: 13em;
+	margin-right: .5em;
+	margin-bottom: 4em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+	#style .wave-bg {
+		top: -4em;
+	}
+	#goal .wave-bg {
+		top: -3em;
+	}
+	#features #wave-1 {
+		top: 13em;
+	}
+	#features #wave-2 {
+		top: 64em;
+	}
+	#location .text {
+		top: 14em;
+	}
+	#context .text {
+		top: 11em;
+	}
+}
+@media screen and (max-width: 700px) {
+	#style .wave-bg {
+		top: -3em;
+	}
+	#goal .wave-bg {
+		top: -2em;
+	}
+	#features #wave-1 {
+		top: 14em;
+	}
+	#features #wave-2 {
+		top: 65em;
+	}
+	#location .text {
+		top: 13em;
+	}
+}
