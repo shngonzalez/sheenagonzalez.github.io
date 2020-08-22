@@ -324,17 +324,3 @@ a {
 .paragraph {
 	margin-bottom: 1em;
 }
-
-/* Recommendations */
-
-#recommendations {
-	margin-bottom: 4em;
-}
-#recommendations h3 {
-	width: 44em;
-	margin-bottom: 1em;
-}
-#recommendations img {
-	width: 13em;
-	margin-right: .5em;
-}

@@ -362,20 +362,6 @@
 	margin-bottom: 1em;
 }
 
-/* Recommendations */
-
-#recommendations {
-	margin-bottom: 4em;
-}
-#recommendations h3 {
-	width: 44em;
-	margin: 4em 0 1em 0;
-}
-#recommendations img {
-	width: 13em;
-	margin-right: .5em;
-}
-
 /* Media Queries */
 
 @media screen and (max-width: 1000px) {

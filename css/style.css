@@ -138,7 +138,16 @@ h3, .subheadline-text {
 
 /* Recommendations */
 
+#recommendations {
+	margin: 4em 0;
+}
+#recommendations h3 {
+	width: 44em;
+	margin-bottom: 1em;
+}
 #recommendations img {
+	width: 13em;
+	margin-right: .5em;
 	transition: .5s;
 }
 #recommendations img:hover {

@@ -298,17 +298,3 @@ h2 {
 .link {
 	color: #1B93C0;
 }
-
-/* Recommendations */
-
-#recommendations {
-	margin: 4em 0;
-}
-#recommendations h3 {
-	width: 44em;
-	margin-bottom: 1em;
-}
-#recommendations img {
-	width: 13em;
-	margin-right: .5em;
-}
