@@ -97,32 +97,42 @@ h3, .subheadline-text {
 }
 #footer #icons svg {
 	padding: 0.5em;
+	transition: .5s;
+}
+#footer #icons svg:hover {
+	color: #F39D7F;
+}
+#footer #icons svg:active {
+	opacity: .5;
 }
 
 /* Buttons */
 .button-fill {
-	width: 12em;
 	background-color: #444444;
 	border: none;
 	color: white;
-	text-align: center;
-	display: inline-block;
-	padding: 1em;
-	cursor: pointer;
-	border-radius: 0.25em;
 }
 .button-outline {
-	width: 12em;
 	background-color: white;
 	border-style: solid;
 	border-width: 0.0625em;
 	border-color: rgba(68, 68, 68, .5);
 	color: #444444;
+}
+.button-fill, .button-outline {
+	width: 12em;
 	text-align: center;
 	display: inline-block;
 	padding: 1em;
 	cursor: pointer;
 	border-radius: 0.25em;
+	transition: .5s;
+}
+.button-fill:hover, .button-outline:hover {
+	text-decoration: underline;
+}
+.button-fill:active, .button-outline:active {
+	opacity: .8;
 }
 
 /* Media Queries */

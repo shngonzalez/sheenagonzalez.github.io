@@ -43,7 +43,7 @@
 	right: 2.5em;
 }
 .line-dots img {
-	left: 4em;
+	left: 5em;
 	bottom: 4em;
 	width: 4em;
 	height: 1em;
@@ -72,6 +72,18 @@
 	width: 29em;
 	height: 23em;
 	margin: 0.5em;
+	transition: transform .5s;
+}
+#work img:hover, #recommendations img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+    transform: scale(1.025);
+}
+#work img:active, #recommendations img:active {
+	transform: scale(.8);
+    opacity: 0.8;
 }
 #left, #right {
 	display: flex;
