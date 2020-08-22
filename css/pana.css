@@ -29,7 +29,6 @@ body {
 }
 #pana-logo {
 	width: 5em;
-	margin-right: 1.5em;
 }
 
 /* Project Content */
@@ -83,8 +82,4 @@ body {
 #recommendations h3 {
 	width: 44em;
 	margin-bottom: 1em;
-}
-#recommendations img {
-	width: 13em;
-	margin-right: .5em;
 }

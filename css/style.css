@@ -138,15 +138,21 @@ h3, .subheadline-text {
 
 /* Recommendations */
 
+#recommendations a {
+	width: 13em;
+	margin-right: .5em;
+	overflow: hidden;
+}
 #recommendations img {
-	transition: .5s;
+	width: 100%;
+	transition: transform .5s;
 }
 #recommendations img:hover {
     -webkit-filter: none;
     -moz-filter: none;
     -ms-filter: none;
     filter: none;
-    transform: scale(1.025);
+    transform: scale(1.125);
 }
 #recommendations img:active {
 	transform: scale(.8);
