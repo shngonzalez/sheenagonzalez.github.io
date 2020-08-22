@@ -68,10 +68,14 @@
 	justify-content: center;
 	margin: 2em 0 5em 0;
 }
-#work img {
+#work a {
 	width: 29em;
 	height: 23em;
 	margin: 0.5em;
+	overflow: hidden;
+}
+#work img {
+	width: 100%;
 	transition: transform .5s;
 }
 #work img:hover {
@@ -79,7 +83,7 @@
     -moz-filter: none;
     -ms-filter: none;
     filter: none;
-    transform: scale(1.025);
+    transform: scale(1.125);
 }
 #work img:active {
 	transform: scale(.8);
