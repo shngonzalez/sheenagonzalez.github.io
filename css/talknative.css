@@ -455,12 +455,16 @@
 
 /* Recommendations */
 
+#recommendations {
+	margin-bottom: 4em;
+}
 #recommendations h3 {
 	width: 44em;
 	margin: 4em 0 1em 0;
 }
 #recommendations img {
-	margin-bottom: 4em;
+	width: 13em;
+	margin-right: .5em;
 }
 
 /* Media Queries */
