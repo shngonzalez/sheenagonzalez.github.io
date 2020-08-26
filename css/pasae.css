@@ -1,0 +1,170 @@
+/* Title Header */
+
+#header {
+	padding: 4em 0;
+	position: relative;
+	background: #DBECE6;
+}
+#header .title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 1em;
+}
+#header .text {
+	width: 37em;
+	text-align: center;
+}
+#pasae-logo {
+	width: 4em;
+}
+#business-cards {
+	width: 20em;
+	margin-top: 2em;
+}
+
+/* Project Content */
+
+.content {
+	width: 54em;
+}
+.proj-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 5em;
+}
+.title {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+.title .icon {
+	padding: .75em .65em;
+	border-radius: 50%;
+	margin-right: 1em;
+	color: #444444;
+	background: #FAD758;
+}
+h2 {
+	margin-bottom: 1em;
+}
+#posters p, #photos p, #shirts p {
+	margin-bottom: 2em;
+}
+
+/* Goal */
+
+#insights img {
+	width: 17em;
+	margin-right: 1.5em;
+}
+#insights p {
+	width: 36em;
+}
+
+/* Poster */
+
+#posters img {
+	width: 54em;
+	margin-bottom: 1em;
+}
+#posters .row img {
+	width: 26.25em;
+}
+#banquet {
+	margin-right: 1.5em;
+}
+
+/* Merch */
+
+#gen-m, #core31-m {
+	width: 26.25em;
+}
+#gen-a {
+	margin: 0 3.25em;
+}
+#gen-m {
+	margin-right: 1.5em;
+}
+#gen-a, #core31-a {
+	margin-bottom: 2em;
+	height: 20em;
+}
+
+/* Photos */
+
+#photos .content > img {
+	width: 54em;
+	margin-bottom: 1.25em;
+}
+#photos .row img {
+	width: 17.35em;
+}
+#netapp, #oakland {
+	margin-right: 1em;
+}
+#photos .subhead, #videos .subhead {
+	margin: .5em 0 .25em;
+}
+
+/* Videos */
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+#meetcore31 {
+	margin-right: 2em;
+}
+iframe, video {
+	width: 26em;
+	height: 14.75em;
+	margin-bottom: .5em;
+}
+#videos .subheadline-text {
+	margin-bottom: .5em;
+}
+#videos .content > .body-text {
+	margin-bottom: 2em;
+}
+#videos .row > .body-text {
+	width: 26em;
+}
+
+/* Footnotes */
+
+#footnotes .content {
+	width: 54em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#footnotes {
+	margin: 2em 0;
+	padding: 2em 0;
+	background: #DBECE6;
+}
+#tools {
+	width: 10em;
+}
+#roles, #notes {
+	width: 20em;
+}
+#tools, #roles {
+	margin-right: 2em;
+}
+#footnotes h3 {
+	margin-bottom: .5em;
+}
+.paragraph {
+	margin-bottom: 1em;
+}
+.link {
+	color: #FDCF77;
+}
